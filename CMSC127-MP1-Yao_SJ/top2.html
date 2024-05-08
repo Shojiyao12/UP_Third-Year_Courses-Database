@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="thirdyear_courses.css" />
+    <title>Third Year Courses Database (BSCS)</title>
+</head>
+
+<body>
+    <br/><h2>Welcome to the Third Year Courses Database (1st Semester - BSCS)</h2><br/><br/>
+	
+	<div class = "container">
+		<img src="UP-System-UP-Cebu-Logo.png" alt="UP Logo">
+	</div>	
+	
+    <br/><h1>ADMIN</h1><br/>
+    <!-- Search For a Teacher -->
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" name="searchForm" class = "otherforms">
+        <label for="search_query">Search for a Teacher [by Full Name (First Name & Last Name)]:</label>
+        <input type="text" name="search_query" id="search_query" required>
+        <button type="submit" name="search_teacher">Search</button>
+    </form>
+	
+	<!-- Search For a Student -->
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" name="searchForm" class = "otherforms">
+        <label for="search_query">Search for a Student [by Full Name (First Name & Last Name)]:</label>
+        <input type="text" name="search_query" id="search_query" required>
+        <button type="submit" name="search_student">Search</button>
+    </form>

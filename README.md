@@ -8,7 +8,7 @@
 ## Target User/s
 - ADMIN
 - Teacher
-- Student
+- Student (Year III - UP)
 
 ## Technology Stack
 - Front-End
